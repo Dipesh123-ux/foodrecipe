@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header style="display: flex; padding: 50px; ;"  >
+     <div style="width: 50%;" class="logo"><img style="height: 150px; margin: 0%; "  src="./Screenshot 2021-04-22 13.51.59.png" alt="IMG"></div>
+    <h1 style="font: bold;" id="heading">Get Recipe Of Your Favourite Food</h1>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript: void(0)" class="closebtn" onclick="closeNav()">&times;</a> </a>
+         <div class="overlay-content">    
+            <a href="#home">Home</a>
+            <a href="#North">North Indian</a>
+            <a href="#SI">South Indian</a>
+            <a href="#DS">About Us</a> 
+         </div>
+        </div>  
+        
+        <span class="food" onclick=  "openNav()" >&#9776; Foods</span>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr  style=" opacity: 30%; color: #615b47;" >
+
+        <section id="North">
+            <div class="sechead"><h2>North Indian</h2></div>
+            <br>
+            <br>
+            <hr  style=" opacity: 30%; color: #615b47;" >
+            <br>
+            <div class="hhead"><h3> * Top 5 North Indian Food</h3></div>
+            <br>
+            <br>
+            <ol class="list" type="1" >
+                <li>PANEER BUTTER MASALA</li>
+                
+                <div class="main">
+               <button onclick="myFunction()" class="recipe">Recipe(hide/show)</button>
+               
+                <div class="each" id="myDIV" style="display: flex;" > <iframe class="youtube" width="50%" height="315" src="https://www.youtube.com/embed/oYZ--rdHL6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <ul >
+                    <h3>INGREDIENTS NEEDED</h4>
+                        <br>
+
+                    <li>Ripe red juicy tomatoes</li>
+                    
+                    <li>Cashews</li>
+                    
+                    <li>Cream</li>
+                    
+                    <li>Butter</li>
+                    
+                    <li>Paneer</li>
+                    
+                    <li>Spices and herbs</li>
+                    
+                    <li>Vegan butter or oil</li>
+                </ul>
+             </div>
+
+             <br>
+             <br>
+
+             <li>ALOO PARATHA</li>
+                
+             <div class="main">
+            <button onclick="myFunction2()" class="recipe">Recipe(hide/show)</button>
+            
+             <div class="each" id="myDIV2" style="display: flex;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/r2N8ObqAgy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <ul >
+                 <h3>INGREDIENTS NEEDED</h4>
+                     <br>
+
+                 <li>Dough made from whole wheat flour</li>
+                
+                 <li>Mashed potato stuffing</li>
+                 
+                 <li>Cream</li>
+            
+                 <li>Butter</li>
+  
+             </ul>
+          </div>
+          <br>
+          <br>
+          <li>CHICKEN BIRYANI</li>
+                
+          <div class="main">
+         <button onclick="myFunction3()" class="recipe">Recipe(hide/show)</button>
+         
+          <div class="each" id="myDIV3" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/95BCU1n268w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <ul>
+              <h3>INGREDIENTS NEEDED</h4>
+                  <br>
+                  <li>1 cup boiled basmati rice</li>
+                  <li>1/2 teaspoon mint leaves</li>
+                  <li>salt as required</li>
+                  <li>2 tablespoon refined oil</li>
+                  <li>3 green cardamom</li>
+                  <li>2 onion</li>
+                  <li> 1 tablespoon garlic paste</li>
+                  <li>1 cup hung curd</li>
+                  <li>600 gm chicken</li>
+                  <li>1 tablespoon garam masala powder</li>
+                  <li>1 tablespoon ginger paste</li>
+                  <li>1 teaspoon red chilli powder</li>
+                  <li>1 teaspoon cumin seeds</li>
+                 
+
+            
+          </ul>
+       </div>
+
+       <br>
+       <br>
+       <li>CHOLE BATURE</li>
+             
+       <div class="main">
+      <button onclick="myFunction4()" class="recipe">Recipe(hide/show)</button>
+      
+       <div class="each" id="myDIV4" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/SRbr7BsvmsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <ul>
+           <h3>INGREDIENTS NEEDED</h4>
+               <br>
+ 
+               <li>2 cup maida</li>
+               <li>2 tbsp rava / semolina</li>
+               <li>1 tsp sugar</li>
+               <li>¼ tsp baking soda</li>
+               <li>½ tsp salt</li>
+               <li>2 tbsp oil</li>
+               <li>¼ cup curd</li>
+               <li>1 cup chana / chickpea </li>
+               <li>1 tsp cumin / jeera</li>
+               <li>1 onion (finely chopped)</li>
+               <li>1½ cup tomato puree</li>
+               <li>2 tbsp coriander</li>
+               <li>2 chilli (slit)</li>
+               <li>¼ tsp garam masala</li>
+         
+       </ul>
+    </div>
+    <br>
+    <br>
+    <li>MALAI KOFTA</li>
+          
+    <div class="main">
+   <button onclick="myFunction5()" class="recipe">Recipe(hide/show)</button>
+   
+    <div class="each" id="myDIV5" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4cSiiYa6_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ul>
+        <h3>INGREDIENTS NEEDED</h4>
+            <br>
+
+            <li>100 grams paneer (cottage cheese) - grated</li>
+            <li>2 medium size potatoes - boiled, peeled and grated</li>
+            <li>▢¼ teaspoon red chili powder</li>
+            <li>1 to 2 tablespoons cornflour (corn starch)</li>
+            <li>oil for frying paneer koftas</li>
+            <li>1 to 2 tablespoons cornflour (corn starch)</li>
+            <li>½ cup onion paste or about 2 medium to large onions, pureed</li>
+            <li>1 cup Tomato Puree or about 2 large tomatoes pureed</li>
+            <li>¼ teaspoon turmeric powder</li>
+            <li>1 inch ginger + 4 to 5 garlic cloves - made in to a fine paste in a mortar-pestle</li>
+            <li>¾ teaspoon red chili powder</li>
+            <li>1 tej patta (indian bay leaf)</li>
+            <li>1 or 2 black cardamom</li>
+            <li>1 tablespoon grated paneer (cottage cheese)</li>
+            <li>1 or 2 tablespoon cream</li>
+                
+        </ul>
+    </div>         
+            </div>
+            </ol>
+            <br>
+            <br>
+            <hr  style=" opacity: 30%; color: #615b47;" >
+        </section>
+        <section id="SI" >
+            <div class="sechead"><h2>South Indian</h2></div>
+            <br>
+            <br>
+            <hr  style=" opacity: 30%; color: #615b47;" >
+            <br>
+            <div class="hhead"><h3> * Top 5 South Indian Food</h3></div>
+            <br>
+            <br>
+            <ol class="list" type="1" >
+                <li>MASALA DOSA</li>
+                
+                <div class="main">
+               <button onclick="myFunction6()" class="recipe">Recipe(hide/show)</button>
+               
+                <div class="each" id="myDIV6" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/llr-GVo_NnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <ul >
+                    <h3>INGREDIENTS NEEDED</h4>
+                        <br>
+
+                <li>▢330 grams idli rice (parboiled rice, ukda chawal, sela chawal) or 1.5 cups idli rice</li>
+                <li>125 grams urad dal or ½ cup husked whole or split black gram</li>
+                <li>35 grams thick poha or ¼ cup thick poha (flattened rice)</li>
+                <li>1 tablespoon chana dal (husked & split bengal gram)</li>
+                <li>1 cup water for soaking urad dal</li>
+                <li>1 cup water for soaking urad dal 
+                    2 cups water for soaking rice
+                    1 cup water for grinding rice & poha</li>
+                <li>300 grams potatoes or 4 medium sized potatoes or 2 cups boiled & chopped or crumbled potatoes</li>
+                <li>2 tablespoons oil</li>
+                <li>150 grams onions or 2 medium to large onions, thinly sliced or 1.25 cups thinly sliced onions</li>
+                <li>1 inch ginger, finely chopped or 1 teaspoon finely chopped ginger
+                </li>
+                <li>1 to 2 green chillies, chopped
+                    ¼ teaspoon turmeric powder</li>
+                </ul>
+             </div>
+
+             <br>
+             <br>
+
+             <li>IDLI</li>
+                
+             <div class="main">
+            <button onclick="myFunction7()" class="recipe">Recipe(hide/show)</button>
+            
+             <div class="each" id="myDIV7" style="display: flex;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/AlLWbCGKSh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <ul >
+                 <h3>INGREDIENTS NEEDED</h4>
+                     <br>
+
+                 <li>▢1 cup urad dal</li>
+                
+                 <li>2 cup idli rava / rice rava / cream of rice</li>
+                 
+                 <li>1 tsp salt</li>
+            
+                 <li>oil to grease</li>
+  
+             </ul>
+          </div>
+          <br>
+          <br>
+          <li>SAMBAR VADA</li>
+                
+          <div class="main">
+         <button onclick="myFunction8()" class="recipe">Recipe(hide/show)</button>
+         
+          <div class="each" id="myDIV8" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/V3RLMcOLYXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <ul>
+              <h3>INGREDIENTS NEEDED</h4>
+                  <br>
+                <li>1 cup urad dal</li>
+                <li>2 green chilli (finely chopped)</li>
+                <li>1 inch ginger (finely chopped)</li>
+                <li>few curry leaves (finely chopped)
+                    2 tbsp coriander (finely chopped)</li>
+                <li>2 tbsp rice flour</li>
+                <li>½ cup toor dal</li>
+                <li>¼ tsp turmeric / haldi</li>
+                <li>1 dried red chilli</li>
+                <li>2 green chilli (slit</li>
+                <li>1 tbsp sambar powder
+                    1 tbsp ghee / clarified butter</li>
+
+            
+          </ul>
+       </div>
+
+       <br>
+       <br>
+       <li>RAVA UTTAPAM</li>
+             
+       <div class="main">
+      <button onclick="myFunction9()" class="recipe">Recipe(hide/show)</button>
+      
+       <div class="each" id="myDIV9" style="display: flex;" > <iframe width="560" height="315" src="https://www.youtube.com/embed/BiO1SXyRAs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <ul>
+           <h3>INGREDIENTS NEEDED</h4>
+               <br>
+ 
+            <li>1 cup rava / semolina / suji</li>
+            <li>½ cup curd</li>
+            <li>¾ tsp salt</li>
+            <li>½  cup water</li>
+            <li>1 onion (finely chopped)</li>
+            <li>½ capsicum (finely chopped)</li>
+            <li>1 carrot (grated)</li>
+            <li>1 tomato (finely chopped)</li>
+            <li>2 tbsp coriander (finely chopped)</li>
+            <li>1 inch ginger (finely chopped)</li>
+            <li>1 chilli (finely chopped)</li>
+            <li>few curry leaves (chopped)</li>
+         
+       </ul>
+    </div>
+    <br>
+    <br>
+    <li>HYDERABADI BIRYANI</li>
+          
+    <div class="main">
+   <button onclick="myFunction10()" class="recipe">Recipe(hide/show)</button>
+   
+    <div class="each" id="myDIV10" style="display: flex;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/8Fw_zWPbGog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ul>
+        <h3>INGREDIENTS NEEDED</h4>
+            <br>
+        <li>3½ cups Water</li>
+        <li>2⅓ cups long-grain Basmati rice</li>
+        <li>4 Bay leaves</li>
+        <li>½ cup Warm Milk</li>
+        <li>2 onions thinly sliced</li>
+        <li>2 Green Chillies chopped</li>
+        <li>500 gms Chicken Thighs or Drumsticks</li>
+        <li>10 black peppercorns</li>
+        <li>1 bunch of fresh coriander leaves</li>
+        <li>½ tsp black cumin seeds</li>
+        <li>2 tsp Ginger Garlic Paste</li>
+        <li>2 tsp Red chilli powder</li>
+        <li>1 tsp biryani masala</li>
+        </ul>
+       </div>     
+        <br>
+        <br>
+            
+        </section>
+
+        <section id="DS" >
+            <hr  style=" opacity: 30%; color: #615b47;" >
+            <div class="sechead"><h2>About Us</h2></div>
+            <br>
+            <br>
+            <hr  style=" opacity: 30%; color: #615b47;" >
+
+            <br>
+            <div class="foot" ><h2>Indian Food Recipe</h2><h5> &nbsp; veg and non-veg Recipes</h5></div>
+            <br>
+            <p class="about">Indian food recipe is an online food learning website where you can access variety of veg and non-vegetarian food.We provide you with short videos and step by step photo recipes straight from our kitchen. Learn interesting recipes and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; share your feedback with us. </p>
+
+
+        </section>
+
+        
+    
+    <script src="./work.js" ></script>
+</body>
+</html>
